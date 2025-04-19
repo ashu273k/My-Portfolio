@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { useMediaQuery } from "react-responsive";
 
 import { Room } from "./Room";
-import HeroLights from "./HeroLights";
+import HeroLight from "./HeroLight";
 import Particles from "./Particles";
 import { Suspense } from "react";
 
@@ -26,7 +26,7 @@ const HeroExperience = () => {
       />
 
       <Suspense fallback={null}>
-        <HeroLights />
+        <HeroLight />
         <Particles count={100} />
         <group
           scale={isMobile ? 0.7 : 1}
