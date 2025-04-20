@@ -26,7 +26,7 @@ A modern, responsive portfolio website built with React, Three.js, and TailwindC
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/my-portfolio.git
+git clone https://github.com/ashu273k/My-Portfolio.git
 cd my-portfolio
 ```
 
@@ -35,12 +35,7 @@ cd my-portfolio
 npm install
 ```
 
-3. Create a `.env` file in the root directory and add your environment variables:
-```env
-VITE_EMAILJS_PUBLIC_KEY=your_emailjs_public_key
-VITE_EMAILJS_TEMPLATE_ID=your_template_id
-VITE_EMAILJS_SERVICE_ID=your_service_id
-```
+3. Create a `.env` file in the root directory and add your environment variables (contact me for the required variables).
 
 4. Start the development server:
 ```bash
@@ -78,4 +73,4 @@ Feel free to reach out to me through the contact form on my portfolio website.
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by Ashu Kumar
