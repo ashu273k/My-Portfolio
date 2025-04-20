@@ -1,20 +1,9 @@
-const navLinks = [
-  {
-    name: "Work",
-    link: "#work",
-  },
-  {
-    name: "Experience",
-    link: "#experience",
-  },
-  {
-    name: "Skills",
-    link: "#skills",
-  },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+export const navLinks = [
+  { link: '/', name: 'Home' },
+  { link: '/showcase', name: 'Showcase' },
+  { link: '/experience', name: 'Experience' },
+  { link: '/techstack', name: 'Tech Stack' },
+  { link: '/testimonials', name: 'Testimonials' },
 ];
 
 const words = [
@@ -257,5 +246,4 @@ export {
   socialImgs,
   techStackIcons,
   techStackImgs,
-  navLinks,
 };
