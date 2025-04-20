@@ -9,7 +9,7 @@ import TechStack from './sections/TechStack'
 import Testimonials from './sections/Testimonials'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
-
+ 
 function App() {
   return (
     <>
