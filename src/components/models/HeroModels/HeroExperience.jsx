@@ -4,7 +4,6 @@ import { useMediaQuery } from "react-responsive";
 
 import { Room } from "./Room";
 import HeroLight from "./HeroLight";
-import Particles from "./Particles";
 import { Suspense } from "react";
 
 const HeroExperience = () => {
@@ -27,7 +26,7 @@ const HeroExperience = () => {
 
       <Suspense fallback={null}>
         <HeroLight />
-        <Particles count={100} />
+
         <group
           scale={isMobile ? 0.7 : 1}
           position={[0, -3.5, 0]}

@@ -30,7 +30,7 @@ const words = [
 
 const counterItems = [
   { value: 1, suffix: "+", label: "Years of Experience" },
-  { value: 0, suffix: "+", label: "Satisfied Clients" },
+  { value: 1, suffix: "+", label: "Hackathon" },
   { value: 5, suffix: "+", label: "Completed Projects" },
   // { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
@@ -147,39 +147,36 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Ashu brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review:
+      "Ashu brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Frontend Developer",
     date: "Yet to Start 🤫",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Sample"
     ],
   },
   {
-    review: "Ashu’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review:
+      "Ashu’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
     title: "Full Stack Developer",
     date: "Yet to Start 🤫",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Sample"
     ],
   },
   {
-    review: "Ashu’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review:
+      "Ashu’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
     title: "React Native Developer",
     date: "Yet to Start 🤫",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Sample"
     ],
   },
 ];
@@ -201,46 +198,32 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Aryan Bhendarkar",
+    mentions: "@kbAryan",
     review:
-      "I can’t say enough good things about Ashu. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "Ashu is one of the most hardworking and curious learners I've met at Scaler. Whether it's debugging code or explaining a tough concept, they're always up for helping others. Proud to have them as a study partner!",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Sai Vishwas",
+    mentions: "@sai12",
     review:
-      "Working with Ashu was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "From building cool mini-projects to cracking DSA problems, Ashu is always pushing limits. What sets them apart is their consistency and love for tech. Watch out for this one—big things ahead!",
     imgPath: "/images/client3.png",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Aviskar",
+    mentions: "@chavan_Avishkar",
     review:
-      "Collaborating with Ashu was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Whenever I hit a roadblock, Ashu is the first person I reach out to. Their clarity in explaining concepts and calm mindset make learning a lot easier. A gem of a person and a future star developer!",
     imgPath: "/images/client2.png",
   },
   {
-    name: "Marvin McKinney",
+    name: "Raam Tichkule",
     mentions: "@marvinmckinney",
     review:
-      "Ashu was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+      "I've seen Ashu grow rapidly in just a few months. What I admire most is their hunger to learn and their humble attitude. Scaler is lucky to have such passionate learners like them.",
     imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Ashu’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Ashu was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
   },
 ];
 
