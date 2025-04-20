@@ -1,5 +1,10 @@
 # My Portfolio Website
 
+[![React](https://img.shields.io/badge/React-19.0.0-blue.svg)](https://reactjs.org/)
+[![Three.js](https://img.shields.io/badge/Three.js-0.175.0-black.svg)](https://threejs.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.1.4-38B2AC.svg)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 A modern, responsive portfolio website built with React, Three.js, and TailwindCSS. This portfolio showcases my work and skills with an interactive 3D experience.
 
 ## 🚀 Features
@@ -21,6 +26,19 @@ A modern, responsive portfolio website built with React, Three.js, and TailwindC
 - EmailJS
 - React Three Fiber
 - React Three Drei
+
+## 📁 Project Structure
+
+```
+my-portfolio/
+├── public/          # Static files
+│   ├── components/  # React components
+│   ├── assets/      # Images, fonts, etc.
+│   ├── styles/      # CSS and style files
+│   └── utils/       # Utility functions
+├── .env             # Environment variables
+└── package.json     # Project dependencies
+```
 
 ## 📦 Installation
 
@@ -62,6 +80,16 @@ npm run preview
 - `npm run build` - Create production build
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ashu273k/My-Portfolio/issues).
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## 📄 License
 
